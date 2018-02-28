@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<AutoCompleteTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/autocomplete_item"
+    android:layout_width="150dp"
+    android:hint="Item"
+    android:layout_column="1"
+    android:layout_height="wrap_content" />
+
+<EditText
+    android:id="@+id/editTextQty"
+    android:hint="Qty"
+    android:imeActionLabel="D"
+    android:imeOptions="actionSend"
+    android:inputType="number"
+    android:layout_height="wrap_content"
+    android:layout_width="100dp"/>
+
+<TextView
+    android:id="@+id/tvText"
+    android:text="$0"
+    android:textColor="#000000"
+    android:textSize="22sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    />
+
+
+
+</TableRow>
